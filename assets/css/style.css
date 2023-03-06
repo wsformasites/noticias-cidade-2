@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: Oswald;
+}
+
+header.header {
+    background-color: #294c71;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar {
+    background-color: inherit;
+    z-index: 999;
+}
+
+i.bi-list {
+    color: white;
+    font-size: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 23px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #b10333;
+    transition: 10ms;
+}
+
+#input-search {
+    border-radius: 30px 0px 0px 30px;
+}
+
+#input-search::placeholder, #input-newsletter::placeholder {
+    color: #b10333;
+    font-size: 18px;
+}
+
+#submit {
+    border-radius: 0px 30px 30px 0px;
+}
+
+footer.footer {
+    background-color: #05213f;
+    color: white;
+    padding: 20px;
+}
+
+.site-map, .newsletter {
+    padding: 0px 20px 20px 20px;
+    font-size: 23px;
+}
+
+.footer-title h2 {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #294c71;
+}
+
+.newsletter-content {
+    text-align: justify;
+    font-size: 23px;
+}
+
+section#last-news, section#brazil-news, section#international-news,
+section#economy-news, section#health-news, section#science-news,
+section#featured, section#interview, section#post, #search, section#error {
+    padding: 40px;
+}
+
+section#interview {
+    background-color: rgb(255, 246, 246);
+}
+
+.card-body h5#interview-title, .card-body h5#news-title {
+    font-size: 33px;
+    color: #294c71;
+    font-weight: 600;
+}
+
+section#contact {
+    padding: 70px;
+}
+
+section#latest-news {
+    padding: 0px 40px 40px 40px;
+}
+
+.title {
+    background-color: #294c71;
+}
+
+.title h2 {
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.author-name ul li a {
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.author-name ul li a:hover {
+    color: #294c71;
+    transition: 10ms;
+}
+
+.main-title {
+    background-color: #b10333;
+}
+
+.main-title h3 {
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#interview-image, #featured-image {
+    width: 100%;
+}
+
+.content-interview, .featured-content {
+    padding: 20px 0px 20px 0px;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.read-more .btn {
+    font-size: 25px;
+}
+
+.read-more .btn a {
+    color: #294c71;
+    text-decoration: none;
+}
+
+.read-more .btn a:hover {
+    color: #132233;
+}
+
+.card {
+    border-color: rgb(199, 199, 199);
+    /*border-radius: 10px;*/
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.card a:hover {
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+}
+
+.card-body h5 {
+    font-size: 26px;
+    text-align: justify;
+    color: #294c71;
+    font-weight: 600;
+}
+
+#title h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.related-content {
+    padding: 20px 0px 20px 0px;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.card-footer button {
+    background-color: #294c71;
+    color: white;
+    font-size: 23px;
+    border-color: rgb(199, 199, 199);
+    width: 100%;
+}
+
+.card-footer button a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer button a:hover, a .card-footer button:hover {
+    color: #366292;
+    transition: 10ms;
+    box-shadow: none;
+}
+
+.subtitle h3 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#address {
+    font-size: 23px;
+}
+
+#address p {
+    margin-bottom: 0;
+}
+
+i.bi-telephone-fill {
+    color: gray;
+    font-size: 40px;
+}
+
+i.bi-whatsapp {
+    color: green;
+    font-size: 40px;
+}
+
+i.bi-telegram {
+    color: blue;
+    font-size: 40px;
+}
+
+#message {
+    resize: none;
+}
+
+.form-floating {
+    color: #b10333;
+    font-size: 18px;
+    border: #294c71 1px solid;
+    border-radius: 5px;
+}
+
+.card-body h2 {
+    font-size: 38px;
+    color: #294c71;
+    font-weight: 600;
+}
+
+div#comments {
+    padding: 15px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+    background-color: white;
+}
+
+div#comments h3 {
+    font-size: 33px;
+    font-weight: 700;
+    color: #294c71;
+}
+
+.related-interviews {
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+    background-color: rgb(255, 246, 246);
+    text-align: justify;
+}
+
+.related-interviews h2 {
+    color: #294c71;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#card-from-other-interviews a {
+    color: black;
+    text-decoration: none;
+}
+
+#card-from-other-interviews a:hover, #related-news a:hover {
+    color: #294c71;
+    box-shadow: 4px 4px 4px 4px rgba(199, 199, 199, 0.5);
+}
+
+.text-from-other-interviews {
+    padding: 10px;
+}
+
+.text-from-other-interviews, .text-from-related-posts {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.related-posts {
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+    background-color: #fffafa;
+    text-align: justify;
+}
+
+.related-posts h2 {
+    color: #294c71;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#card-from-related-posts {
+    border-color: rgb(199, 199, 199);
+    margin-top: 15px;
+    background-color: #fffafa;
+    box-shadow: 2px 2px 2px 2px rgba(199, 199, 199, 0.5);
+}
+
+#card-from-related-posts:hover {
+    color: #294c71;
+    box-shadow: 4px 4px 4px rgba(199, 199, 199, 0.5);
+}
+
+#toast-content {
+    font-size: 21px;
+}
+
+div.text h2 {
+    padding-top: 20px;
+    color: #294c71;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 575px) {
+    #menu {
+        padding: 20px;
+    }
+
+    .related-interviews {
+        margin-top: 20px;
+    }
+
+    section#last-news, section#brazil-news, section#international-news,
+    section#economy-news, section#health-news, section#science-news,
+    section#featured, section#interview, section#post, #search, section#error {
+        padding: 20px;
+    }
+
+    .related-posts {
+        margin-top: 20px;
+    }
+
+    .text-from-related-posts {
+        padding: 10px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #menu {
+        padding: 20px;
+    }
+}
